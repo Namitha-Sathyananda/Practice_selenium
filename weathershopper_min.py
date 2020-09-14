@@ -36,7 +36,7 @@ moist =str(product_list[min_index])[2:-2]
 print(moist)
 time.sleep(3)
 
-b = browser.find_element_by_xpath('//button[@onclick = "addToCart("'%s'","%s'")"]'%(moist,low_price)).click()
+b = browser.find_element_by_xpath('//button[@onclick = "addToCart('%s',%s)"%(moist,low_price)]').click()
 
 
 print(b)
