@@ -1,10 +1,12 @@
 '''
 SCOPE:
 1) Launch Chrome driver
-2) Navigate to http://qainterview.pythonanywhere.com/
-3) Fill all the text field
-4) Click on Calcutate button
-5) Validate the result.
+2) Navigate to https://weathershopper.pythonanywhere.com/
+3) take input from the console to particular type of moisturizer
+4) Navigate to moisturizer page
+5) check the product containing perticular element
+6) compare the price for the lowest priced product.
+7) Add to cart
 6) Close the browser
 '''
 
